@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Brain challenge</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="mise_en_page/bootstrap.css" rel="stylesheet">
+    <link href="Mise_en_Page/style.css" rel="stylesheet">
+</head>
+<body>
+
+<h1 id="titre"  style="margin-top: 2px;display: block;width: 100%;
+            height: auto; font-size: xx-large; color: purple; border-color: purple;font-family: cursive;
+             text-align: center;border-bottom-style: double;text-shadow: blue">BRAIN CHALLENGE</h1>
+
+<div id="question" class="well" style="margin-top: 0%;
+                 display: block; height: auto; text-align: center; font-size: 50px; color: blue">Question</div>
+
+<div class="well" id="assertions">
+    <legend id="tmp" class="well" style=" display: block;width: 90%; height: auto; font-size: medium;
+                border-color: blue;text-align: center ">Choisissez la reponse pour passer à la question suivante</legend>
+    <div>
+        <button id="assertion1" class="btn btn-primary btn-sm"
+                style="width: 19%">
+            Assertion 1</button>
+        <button id="assertion2" class="btn btn-primary btn-sm"
+                style="width: 19%">
+            Assertion 2</button>
+        <button id="assertion3" class="btn btn-primary btn-sm"
+                style="width: 19%">
+            Assertion 3</button>
+        <button id="assertion4" class="btn btn-primary btn-sm"
+                style="width: 19%">
+            Assertion 4</button>
+        <button id="assertion5" class="btn btn-primary btn-sm"
+                style="width: 19%">
+            Assertion 5</button><br /><br />
+
+    </div>
+    <div id="resultat" class="well" style="margin-top: 1%;
+                 display: block;width: 90%; height: auto; font-size: large;border-color: blue;text-align: center " >le resultat ici
+    </div>
+    <div id="score" class="well" style="margin-top: 2px;
+                 display: block;width: 90%; height: auto; font-size: large; margin-rigth: 2px
+                 ; text-decoration-color: purple;border-color: blue; text-align: center">Nombre de question reussi </div>
+
+    </legend>
+    <button id="Recomm" class="btn btn-default btn-sm"
+            style="width: auto">
+        RECOMMENCER</button>
+    <button id="ann" class="btn btn-default btn-sm"
+            style="width: auto">
+        ANNULER</button><br />
+    <br />
+</div>
+
+</body>
+<script src="Java_Script/moteur_du_jeu.js">
+
+</script>
+</html>
